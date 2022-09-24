@@ -1,1 +1,123 @@
+*{
+    scroll-behavior: smooth;
+  }
 
+header {
+    background-color: ;
+    backdrop-filter: 
+}
+.navigation-casing {
+
+}
+
+.profile-casing {
+    border-color: ;
+}
+
+.profile { 
+    width: 100px; 
+    border-radius: 50px; 
+    float: left; 
+    margin-right: 10px; 
+}
+
+.navigation { 
+
+}
+
+.credentials-casing { 
+    border: ; 
+    border-left: 5px; 
+}
+
+.log-in-section { 
+
+}
+
+.sign-up-section { 
+
+}
+
+.crypto-button { 
+    float: center; 
+}
+
+.crypto-button-real { 
+
+}
+
+.counter-casing { 
+
+}
+
+.counter { 
+
+}
+
+.footer-content { 
+
+}
+
+.h3-footer { 
+    text-align: center; 
+}
+
+.socials { 
+    list-style-type: none; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 1rem 0 3rem 0; 
+}
+
+.socials li { 
+    margin: 0 10px; 
+    align-items: center; 
+}
+
+.socials a { 
+    text-decoration: none; 
+}
+
+.gmail-logo :hover{ 
+    animation-name:
+    scaleTransform;
+    animation-duration: 3s; 
+}
+
+.instagram-logo :hover{ 
+    animation-name:
+    scaleTransform;
+    animation-duration: 3s; 
+}
+
+.facebook-logo :hover{ 
+    animation-name:
+    scaleTransform;
+    animation-duration: 3s; 
+}
+
+.twitter-logo :hover{ 
+    animation-name:
+    scaleTransform;
+    animation-duration: 3s; 
+}
+.linked-in-logo :hover{ 
+    animation-name:
+    scaleTransform;
+    animation-duration: 3s; 
+}
+
+.footer-bottom { 
+    align-items: center; 
+}
+
+
+@keyframes scaleTransform {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.25)
+    }
+}
