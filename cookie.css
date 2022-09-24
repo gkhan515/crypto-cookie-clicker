@@ -1,6 +1,23 @@
 *{
     scroll-behavior: smooth;
+    /* border: 2px solid red; */
   }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.bg-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 header {
     background-color: ;
