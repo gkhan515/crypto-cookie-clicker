@@ -19,6 +19,10 @@ const displayNum = document.querySelector('.counter');
 
 
 
+
+
+
+
 // var username = "Username Not Set";
 // var password = "Password Not Set";
 // function addUser(){
@@ -44,7 +48,7 @@ const displayNum = document.querySelector('.counter');
 
 function cookieFunction() {
 
- 
+
     cookieNum +=1;
     displayNum.innerHTML = "CryptoCookies: " + cookieNum;
 }
@@ -53,7 +57,8 @@ function profileFunction() {
     alert("profile function");  
 }
 function loginFunction() {
-
+    window.location.assign(cryptologin.html);
+    window.location.href = "test.html";
     alert("login");  
 }
 function signUpFunction(){
