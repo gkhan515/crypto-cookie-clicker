@@ -121,31 +121,41 @@ main {
 .gmail-logo :hover{ 
     animation-name:
     scaleTransform;
-    animation-duration: 3s; 
+    animation-duration: 3s;
+    opacity: 0.8;
+    text-shadow: rgba(black, black, black, 0.4);
 }
 
 .instagram-logo :hover{ 
     animation-name:
     scaleTransform;
-    animation-duration: 3s; 
+    animation-duration: 3s;
+    opacity: 0.8;
+    text-shadow: rgba(black, black, black, 0.4);
 }
 
 .facebook-logo :hover{ 
     animation-name:
     scaleTransform;
-    animation-duration: 3s; 
+    animation-duration: 3s;
+    opacity: 0.8; 
+    text-shadow: rgba(black, black, black, 0.4);
 }
 
 .twitter-logo :hover{ 
     animation-name:
     scaleTransform;
-    animation-duration: 3s; 
+    animation-duration: 3s;
+    opacity: 0.8;
+    text-shadow: rgba(black, black, black, 0.4);
 }
 
 .linked-in-logo :hover{ 
     animation-name:
     scaleTransform;
-    animation-duration: 3s; 
+    animation-duration: 3s;
+    opacity: 0.8;
+    text-shadow: rgba(black, black, black, 0.4);
 }
 
 .footer-bottom { 
