@@ -63,7 +63,7 @@ main {
     align-items: center;
 }
 
-.crypto-button {
+.crypto-button crypto-button-clicked{
     width: 25%;
     height: 25%;
 }
