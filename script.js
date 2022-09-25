@@ -10,8 +10,8 @@ clicker.addEventListener('click', cookieFunction);
 const login = document.querySelector('.Log-in-section');
 login.addEventListener('click', loginFunction); 
 
-const signup = document.querySelector('.Sign-up-section');
-signup.addEventListener('click', signUpFunction); 
+// const signup = document.querySelector('.Sign-up-section');
+// signup.addEventListener('click', signUpFunction);
 
 const displayNum = document.querySelector('.counter');
 
@@ -61,8 +61,7 @@ function loginFunction() {
     window.location.href = "test.html";
     alert("login");  
 }
-function signUpFunction(){
+// function signUpFunction(){
 
-    alert("Signup");
-}
-
+//     alert("Signup");
+// }
