@@ -45,6 +45,7 @@ body {
     align-items: center;
     padding: 5px;
     border-right: #615ba7 5px;
+    border-bottom-color: black 5px solid;
 }
 
 .logo {
