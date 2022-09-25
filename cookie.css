@@ -40,7 +40,19 @@ body {
 }
 
 .navigation { 
+    background-color: #615ba7;
+    opacity: 0.3;
     align-items: center;
+    padding: 5px;
+    border-right: #615ba7 5px;
+    border-bottom-color: black 5px solid;
+}
+
+.logo {
+    image-orientation: center;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
 }
 
 .credentials-casing { 
@@ -63,9 +75,14 @@ main {
     align-items: center;
 }
 
-.crypto-button crypto-button-clicked{
+.crypto-button {
+    transition: all 0.07s ease;
     width: 25%;
     height: 25%;
+}
+
+.clicked {
+    transform: scale(1.1);
 }
 /*
 .counter-casing { 
