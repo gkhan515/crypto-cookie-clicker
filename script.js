@@ -74,6 +74,7 @@ function loginFunction() {
     alert("login");  
 }
 
+export{cookieNum};
 
 // function signUpFunction(){
 

@@ -75,6 +75,12 @@ main {
     align-items: center;
 }
 
+button {
+    padding: 8px;
+    color: white;
+    background-color: #615ba7;
+}
+
 .crypto-button {
     transition: all 0.07s ease;
     width: 25%;
