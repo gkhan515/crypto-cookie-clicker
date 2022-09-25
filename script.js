@@ -1,5 +1,5 @@
 
-let cookieNum = 0;
+let cookieNum = [0];
 
 const profile = document.querySelector('.profile');
 profile.addEventListener('click', profileFunction); 
@@ -50,8 +50,8 @@ const audio = document.querySelector('audio');
 
 
 function cookieFunction() {
-    cookieNum +=1;
-    displayNum.innerHTML = "CryptoCookies: " + cookieNum;
+    cookieNum[0] +=1;
+    displayNum.innerHTML = "CryptoCookies: " + cookieNum[0];
     clicker.src = "images/clicked.png";
     clicker.classList.add("clicked");
     audio.currentTime = 0;
