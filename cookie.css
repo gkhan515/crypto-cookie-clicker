@@ -40,6 +40,8 @@ body {
 }
 
 .navigation { 
+    background-color: #615ba7;
+    opacity: 0.3;
     align-items: center;
     padding: 5px;
     border-right: #615ba7 5px;
