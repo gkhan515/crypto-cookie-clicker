@@ -41,11 +41,14 @@ body {
 
 .navigation { 
     align-items: center;
+    padding: 5px;
 }
 
 .logo {
     image-orientation: center;
-    border-radius: 90px;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
 }
 
 .credentials-casing { 
