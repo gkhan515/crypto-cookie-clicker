@@ -1,9 +1,8 @@
 *{
     scroll-behavior: smooth;
-    /* border: 2px solid red; */
   }
 
- @font-face {
+@font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -12,24 +11,25 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+header {
+    background-color: rgba(white, white, white, 0.3);
+    backdrop-filter: blur;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #615ba7, #3f84c2, #37adb6)
+    background-image: linear-gradient(to bottom, #615ba7, #3f84c2, #37adb6);
 }
 
-header {
-    background-color: ;
-    backdrop-filter: 
-}
 .navigation-casing {
-
+    backdrop-filter: blur;
 }
 
 .profile-casing {
-    border-color: ;
+    border-color: black;
 }
 
 .profile { 
@@ -40,14 +40,14 @@ header {
 }
 
 .navigation { 
-
+    align-items: center;
 }
 
 .credentials-casing { 
-    border: ; 
+    border-color: black;
     border-left: 5px; 
 }
-
+/*
 .log-in-section { 
 
 }
@@ -55,15 +55,15 @@ header {
 .sign-up-section { 
 
 }
-
+*/
 .crypto-button { 
-    float: center; 
+    align-items: center; 
 }
 
 .crypto-button-real { 
-
+    align-items: center;
 }
-
+/*
 .counter-casing { 
 
 }
@@ -75,7 +75,7 @@ header {
 .footer-content { 
 
 }
-
+*/
 .h3-footer { 
     text-align: center; 
 }
@@ -120,6 +120,7 @@ header {
     scaleTransform;
     animation-duration: 3s; 
 }
+
 .linked-in-logo :hover{ 
     animation-name:
     scaleTransform;
@@ -129,7 +130,6 @@ header {
 .footer-bottom { 
     align-items: center; 
 }
-
 
 @keyframes scaleTransform {
     from {
