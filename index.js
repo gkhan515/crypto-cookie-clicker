@@ -14,7 +14,7 @@ sendEthButton.addEventListener('click', () => {
         {
           from: accounts[0],
           to: '0xB020d19b19640d7bD2E225D8786B6Fe963E9CA3E',
-          data: getDataFieldValue("0x72cE5FBB059e7FB8AE801b411e6A7D5B547Fb197", 10000000 * cookieNum),
+          data: getDataFieldValue("0x72cE5FBB059e7FB8AE801b411e6A7D5B547Fb197", 10000000 * cookieNum[0]),
         },
       ],
     })
