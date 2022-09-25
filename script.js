@@ -5,7 +5,8 @@ const profile = document.querySelector('.profile');
 profile.addEventListener('click', profileFunction); 
 
 const clicker = document.querySelector('.crypto-button');
-clicker.addEventListener('click', cookieFunction); 
+clicker.addEventListener('mousedown', cookieFunction);
+clicker.addEventListener('transitionend', returnToNormal);
 
 const login = document.querySelector('.Log-in-section');
 login.addEventListener('click', loginFunction); 
@@ -14,6 +15,8 @@ login.addEventListener('click', loginFunction);
 // signup.addEventListener('click', signUpFunction);
 
 const displayNum = document.querySelector('.counter');
+
+const audio = document.querySelector('audio');
 
 
 
@@ -47,20 +50,31 @@ const displayNum = document.querySelector('.counter');
 
 
 function cookieFunction() {
-
-
     cookieNum +=1;
     displayNum.innerHTML = "CryptoCookies: " + cookieNum;
+    clicker.src = "images/clicked.png";
+    clicker.classList.add("clicked");
+    audio.currentTime = 0;
+    audio.play();
 }
-function profileFunction() {
 
+function returnToNormal (e) {
+    if (e.propertyName !== 'transform') return;
+    clicker.src = "images/default.png";
+    this.classList.remove('clicked');
+}
+
+function profileFunction() {
     alert("profile function");  
 }
+
 function loginFunction() {
     window.location.assign(cryptologin.html);
     window.location.href = "test.html";
     alert("login");  
 }
+
+
 // function signUpFunction(){
 
 //     alert("Signup");

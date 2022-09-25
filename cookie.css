@@ -63,9 +63,14 @@ main {
     align-items: center;
 }
 
-.crypto-button crypto-button-clicked{
+.crypto-button {
+    transition: all 0.07s ease;
     width: 25%;
     height: 25%;
+}
+
+.clicked {
+    transform: scale(1.1);
 }
 /*
 .counter-casing { 
