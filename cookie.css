@@ -38,6 +38,11 @@ body {
     float: left; 
     margin-right: 10px; 
 }
+
+.navigation { 
+    align-items: center;
+}
+
 /*
 .navigation { 
 
