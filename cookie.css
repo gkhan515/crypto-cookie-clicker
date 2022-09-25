@@ -56,12 +56,16 @@ body {
 
 }
 */
-.crypto-button { 
-    align-items: center; 
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.crypto-button-real { 
-    align-items: center;
+.crypto-button {
+    width: 25%;
+    height: 25%;
 }
 /*
 .counter-casing { 
