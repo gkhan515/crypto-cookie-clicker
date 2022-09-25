@@ -42,6 +42,7 @@ body {
 .navigation { 
     align-items: center;
     padding: 5px;
+    border-right: #615ba7 5px;
 }
 
 .logo {
